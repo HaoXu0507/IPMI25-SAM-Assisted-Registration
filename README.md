@@ -13,15 +13,18 @@ You can prepare datasets by yourself or follow the following steps.
 * Download [the Abdomen CT Dataset](https://learn2reg.grand-challenge.org/Datasets/).
 * Download [the ACDC MRI Dataset](https://www.creatis.insa-lyon.fr/Challenge/acdc/databases.html).
 
-## Segmentation Anything Model (SAM) Prepare 
+## Pre-trained SAM Model Prepare 
 * Download the pretrained [SAT-Nano/Pro model](https://github.com/zhaoziheng/SAT).
 
 ## SAM Mask Generation
-1. Make the JSON file 
-2. Generate Masks according to the text prompt
+1. Make the JSON file by running [create_Abdomen_CTCT_json.py](/SAT/create_Abdomen_CTCT_json.py)
+   
+2. Generate Masks according to the text prompt by running [inference_Abdomen.py](/SAT/inference_Abdomen.py)
 
 ## Training
+``python /Reg_Model/train.py ``
 
 ## Testing
+``python /Reg_Model/test.py ``
 
 
