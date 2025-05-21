@@ -13,5 +13,15 @@ You can prepare datasets by yourself or follow the following steps.
 * Download [the Abdomen CT Dataset](https://learn2reg.grand-challenge.org/Datasets/).
 * Download [the ACDC MRI Dataset](https://www.creatis.insa-lyon.fr/Challenge/acdc/databases.html).
 
-## Segmentation Anything Model (SAM) Prepare
+## Segmentation Anything Model (SAM) Prepare 
 * Download the pretrained [SAT-Nano/Pro model](https://github.com/zhaoziheng/SAT).
+
+## SAM Mask Generation
+1. Make the JSON file 
+2. Generate Masks according to the text prompt
+
+## Training
+
+## Testing
+
+
