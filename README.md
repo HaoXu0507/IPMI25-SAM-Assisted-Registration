@@ -27,4 +27,18 @@ You can prepare datasets by yourself or follow the following steps.
 ## Testing
 ``python /Reg_Model/test.py ``
 
+## Visualization
+![Visualization](/Visualization.png)
+
+## Citation
+
+```
+@inproceedings{Xu_2025_IPMI,
+  title={MultiCo3D: Multi-Label Voxel Contrast for One-Shot Incremental Segmentation of 3D Neuroimages},
+  author={{Hao Xu and Tengfei Xue and Dongnan Liu and Yuqian Chen and Fan Zhang and Carl-Fredrik Westin and Ron Kikinis and Lauren J. O'Donnell and Weidong Cai},
+  booktitle={The 29th International Conference on Information Processing in Medical Imaging (IPMI) 2025},
+  year={2025},
+}
+```
+
 
