@@ -5,3 +5,13 @@
 
 
 ![Poster](/Poster.jpg)
+
+## Get Started
+
+## Datasets Prepare
+You can prepare datasets by yourself or follow the following steps.
+* Download [the Abdomen CT Dataset](https://learn2reg.grand-challenge.org/Datasets/).
+* Download [the ACDC MRI Dataset](https://www.creatis.insa-lyon.fr/Challenge/acdc/databases.html).
+
+## Segmentation Anything Model (SAM) Prepare
+* Download the pretrained [SAT-Nano/Pro model](https://github.com/zhaoziheng/SAT).
