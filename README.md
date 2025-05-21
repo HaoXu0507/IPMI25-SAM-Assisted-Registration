@@ -4,4 +4,4 @@
 >*The 29th International Conference on Information Processing in Medical Imaging (IPMI) 2025 [[paper](https://arxiv.org/abs/2502.11440),[project](https://arxiv.org/abs/2502.11440),[code](https://github.com/HaoXu0507/ISBI2023-One-Shot-WM-Tract-Segmentation)]
 
 
-![Poster](/IPMI-Poster.pdf)
+![Poster](/Poster.jpg)
