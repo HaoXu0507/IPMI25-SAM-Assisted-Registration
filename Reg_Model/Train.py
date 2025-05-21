@@ -62,11 +62,6 @@ def jacobian_determinant(disp):
     return jacdet.unsqueeze(0).unsqueeze(0)
 
 
-
-
-
-
-
 def prepare_data(json_dir, split='train'):
     with open(json_dir, 'r') as f:
         lines = f.readlines()
@@ -200,9 +195,6 @@ def prepare_data_ACDC(json_dir, split='train'):
     return data
 
 
-
-
-
 def mk_grid_img(grid_step=20, line_thickness=1, grid_sz=[160, 192, 160]):
     grid_img = np.zeros(grid_sz)
     for j in range(0 + grid_step, grid_img.shape[0], grid_step):
@@ -235,7 +227,6 @@ def multi_class2mask(mask):
         out = np.where(mask[i] == 1, np.ones((H, W, D)) * (i + 1), out)
     out = out.astype(np.float)
     return out
-
 
 
 
@@ -352,8 +343,6 @@ def train():
 
     from Models.Conv_Transformer_Reg import, CNN_Attention_Net
     net = CNN_Attention_Net().to(device)
-    import TransMorph_models.TransMorph_bspl as TransMorph_bspl
-
     epoch = 500
 
     STN = SpatialTransformer(vol_size).to(device)
