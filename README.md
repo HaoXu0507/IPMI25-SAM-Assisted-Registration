@@ -35,7 +35,7 @@ You can prepare datasets by yourself or follow the following steps.
 ```
 @inproceedings{Xu_2025_IPMI,
   title={Medical Image Registration Meets Vision Foundation Model: Prototype Learning and Contour Awareness},
-  author={{Hao Xu and Tengfei Xue and Jianan Fan and Dongnan Liu and Yuqian Chen and Fan Zhang and Carl-Fredrik Westin and Ron Kikinis and Lauren J. O'Donnell and Weidong Cai},
+  author={Hao Xu and Tengfei Xue and Jianan Fan and Dongnan Liu and Yuqian Chen and Fan Zhang and Carl-Fredrik Westin and Ron Kikinis and Lauren J. O'Donnell and Weidong Cai},
   booktitle={The 29th International Conference on Information Processing in Medical Imaging (IPMI) 2025},
   year={2025},
 }
